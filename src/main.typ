@@ -28,13 +28,17 @@ $
 $<plancks_eq_with_work>
 where $K_max$ is the maximum kinetic energy possible for the expelled electron and $W_0$ is the work function.
 
-By moving around the equation above, we can find the stopping voltage as a function of the frequency of light, and likewise the work function as a function of the stopping voltage.
+By moving around the equation above, we can find the stopping voltage as a function of the frequency of light
 $
   U_s (f) = (h f)/e - W_0/e
 $
+, and likewise the work function as a function of the stopping voltage
+
 $
   W_0(U_s) = h f - e U_s
+  .
 $
+
 These we can use later in our graphs to find estimates for the Planck's constant $h$ and the work function $W_0$.
 
 
@@ -47,7 +51,7 @@ These we can use later in our graphs to find estimates for the Planck's constant
 == Intensity <results_a>
 
 #figure(
-  caption: [Series A current-voltage curves for three apertures at fixed wavelength. The linearized cutoff fits are shown together with the pairwise line intersections used to estimate the shared stopping voltage.],
+  caption: [Current-voltage curves for three apertures at fixed wavelength. The linearized cutoff fits are shown together with the pairwise line intersections used to estimate the shared stopping voltage.],
   image("plot_a.png"),
 )  <plot_a>
 
@@ -91,7 +95,7 @@ The results demonstrate that the stopping voltage $U_s$ theoretically should rem
 == Frequency <results_b>
 
 #figure(
-  caption: [Series B current-voltage curves for three wavelengths at fixed aperture. The low-current baseline and rising region are linearly fitted and their intersections give the stopping voltages.],
+  caption: [Current-voltage curves for three wavelengths at fixed aperture. The low-current baseline and rising region are linearly fitted and their intersections give the stopping voltages.],
   image("plot_b.png"),
 ) <plot_b>
 
@@ -147,7 +151,7 @@ The main limitations are the small number of wavelengths and the fact that the s
 
 It is also worth mentioning that the setup was not as stable as intended. The vacuum lamp and the receiver was much closer than the instructions intended. Therefore small vibrations could've disrupted the measuring process.
 
-
+The code that was used in this project is available on #link("https://github.com/mackrus/labb", [GitHub (https://github.com/mackrus/labb)]).
 
 #bibliography("references.bib")
 
