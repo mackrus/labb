@@ -85,5 +85,5 @@ typst compile src/main.typ src/main.pdf
 ## Course Information
 
 - **Course**: Quantum Physics (1FA521)
-- **Institution**: Uppsala University (implied by course code)
+- **Institution**: Uppsala University
 - **Lab**: #3
