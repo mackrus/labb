@@ -1,0 +1,17 @@
+[project]
+name = "labb"
+version = "0.1.0"
+description = "Data analysis and report generation for the photoelectric effect lab in Quantum Physics (1FA521)."
+authors = [
+    { name = "Filip Petrini" },
+    { name = "Markus Bajlo" },
+    { name = "Erik Miller" },
+    { name = "Simplice Alain Tatanfack" },
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "scipy>=1.17.1",
+]
